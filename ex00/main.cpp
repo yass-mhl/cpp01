@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 10:40:48 by ymehlil           #+#    #+#             */
-/*   Updated: 2023/07/19 11:01:18 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/07/19 12:09:47 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void randomChump( std::string name );
 
 int	main(void)
 {
-	Zombie *zombie = newZombie("Monsieur graine");
+	Zombie *zombie = newZombie("Marco");
 	zombie->announce();
 	delete zombie;
 	randomChump("Zombie2");
