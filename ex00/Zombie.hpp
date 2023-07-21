@@ -6,9 +6,12 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 10:34:41 by ymehlil           #+#    #+#             */
-/*   Updated: 2023/07/19 10:50:04 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/07/19 18:20:37 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#ifndef ZOMBIE_HPP
+#define ZOMBIE_HPP
 
 #include <iostream>
 
@@ -24,3 +27,4 @@ class Zombie
 		std::string _name;
 };
 
+#endif
