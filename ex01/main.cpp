@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 11:06:44 by ymehlil           #+#    #+#             */
-/*   Updated: 2023/07/19 12:09:04 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/07/22 11:48:39 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	main(void)
 	randomChump("Prince");
 
 	// Creation de la horde
-	Zombie *horde = zombieHorde(7, "Walker");
+	Zombie *horde = zombieHorde(-5, "Walker");
 	
 	//Destruction
 	delete [] horde;
