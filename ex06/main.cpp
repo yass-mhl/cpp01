@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 19:23:46 by ymehlil           #+#    #+#             */
-/*   Updated: 2023/07/21 19:33:35 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/07/22 12:00:08 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,10 @@ int main(int ac, char **av)
 	switch(level(av[1])) {
 		case 0:
 			harl.complain("DEBUG");
-			break ;
 		case 1:
 			harl.complain("INFO");
-			break ;
 		case 2:
 			harl.complain("WARNING");
-			break ;
 		case 3:
 			harl.complain("ERROR");
 			break ;
